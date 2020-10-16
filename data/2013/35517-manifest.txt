@@ -1,0 +1,51 @@
+File Manifest for ICPSR 35517
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails, 2013. ICPSR35517-v1. Ann Arbor,
+MI: Inter-university Consortium for Political and Social Research
+[distributor], 2015-01-15. http://doi.org/10.3886/ICPSR35517.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35517-descriptioncitation.pdf       -       -         -       2016-02-29  -
+
+    35517-related_literature.txt        -       -         -       daily       -
+
+    35517-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails, 2013
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    35517-0001-Codebook.pdf             -       -         -       2015-01-15  ce12da998327787a2e4222edc8529496
+
+    35517-0001-Data.dta                 -       859       200     2015-01-15  8f58d95875a6b20e06c1f7b58fe05cdd
+
+    35517-0001-Data.rda                 -       859       200     2015-01-15  867694870e451665e2102f0908acf2d1
+
+    35517-0001-Data.sav                 -       859       200     2015-01-15  6f8e8f505f1515a7553c3d1f1f1ec4ef
+
+    35517-0001-Data.stc                 -       859       200     2015-01-15  8d7e51a719a76ec1dc92959b144429bf
+
+    35517-0001-Data.tsv                 -       859       200     2015-01-15  c4fba4f391b04e0d77649bfd6b347a77
+
+    35517-0001-Data.txt                 1158    859       200     2015-01-15  4fdf172905094b5613265dccbd693bda
+
+    35517-0001-Setup.dct                -       -         -       2015-01-15  8623a1231344ce51870dd7e5530f6a9a
+
+    35517-0001-Setup.do                 -       -         -       2015-01-15  145e3cb6a1d8c2b7ad1985d57831f31a
+
+    35517-0001-Setup.sas                -       -         -       2015-01-15  2369c9cf63a19c5649a652cb7ddc3199
+
+    35517-0001-Setup.sps                -       -         -       2015-01-15  be757a6d626c08702deff3a741f12270
+
+    35517-0001-Supplemental_syntax.do   -       -         -       2015-01-15  b9ee995abe7a3642e3e9927ba8878242
+
+    35517-0001-Supplemental_syntax.sas  -       -         -       2015-01-15  273b42d4c4892fdf2840caf8125589c7
+

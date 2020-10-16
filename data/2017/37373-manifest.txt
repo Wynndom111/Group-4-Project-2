@@ -1,0 +1,51 @@
+File Manifest for ICPSR 37373
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails, 2017. ICPSR37373-v1. Ann Arbor,
+MI: Inter-university Consortium for Political and Social Research
+[distributor], 2019-10-10. http://doi.org/10.3886/ICPSR37373.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37373-descriptioncitation.pdf       -       -         -       2019-10-10  -
+
+    37373-related_literature.txt        -       -         -       daily       -
+
+    37373-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails, 2017
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37373-0001-Codebook.pdf             -       -         -       2019-10-10  ff9a07bcc7e007ebf8dfbb267842a649
+
+    37373-0001-Data.dta                 -       865       155     2019-10-10  4927e718f78137df88c5bfc1f625927e
+
+    37373-0001-Data.rda                 -       865       155     2019-10-10  1e8cd965c2ed20acb48cdfe9379307e2
+
+    37373-0001-Data.sav                 -       865       155     2019-10-10  5a4cbe74ff8504ca35699680fcedc77c
+
+    37373-0001-Data.stc                 -       865       155     2019-10-10  4e1125f84594c32e02b78156525be8b4
+
+    37373-0001-Data.tsv                 -       865       155     2019-10-10  6a8fff6a01c757b7df7e56128e309a88
+
+    37373-0001-Data.txt                 796     865       155     2019-10-10  7be0b9387fd52fb0916aa2d8a9f126e7
+
+    37373-0001-Setup.dct                -       -         -       2019-10-10  aacca58fe6ef656295c8f19fe3df49a2
+
+    37373-0001-Setup.do                 -       -         -       2019-10-10  8fb8fc3bffbed48b21e873ca213ba918
+
+    37373-0001-Setup.sas                -       -         -       2019-10-10  10ac2735ade9b1c1f30d6516c3fc4429
+
+    37373-0001-Setup.sps                -       -         -       2019-10-10  e27b64918c870042c8d0280648d41331
+
+    37373-0001-Supplemental_syntax.do   -       -         -       2019-10-10  8198a0b8dfa6a1353924a2fa5d5d658b
+
+    37373-0001-Supplemental_syntax.sas  -       -         -       2019-10-10  7415d285a6dd0ea68a84b3bcfce0dd52
+

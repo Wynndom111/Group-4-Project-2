@@ -1,0 +1,52 @@
+File Manifest for ICPSR 34884
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails: Jail-Level Data, 2012.
+ICPSR34884-v1. Ann Arbor, MI: Inter-university Consortium for Political and
+Social Research [distributor], 2013-10-30.
+http://doi.org/10.3886/ICPSR34884.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    34884-descriptioncitation.pdf       -       -         -       2014-07-04  -
+
+    34884-related_literature.txt        -       -         -       daily       -
+
+    34884-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails: Jail-Level Data, 2012
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    34884-0001-Codebook.pdf             -       -         -       2013-10-30  b99f4f29e13a15c7173d2be236bd72a9
+
+    34884-0001-Data.dta                 -       867       200     2013-10-30  bd31201d3eacbd79b3821e4e7c98ecdc
+
+    34884-0001-Data.rda                 -       867       200     2013-10-30  dd5fedc69804607100bd1239bf5f378d
+
+    34884-0001-Data.sav                 -       867       200     2013-10-30  8e60e58125117cf89cfe5069044d0f58
+
+    34884-0001-Data.stc                 -       867       200     2013-10-30  352abcd4e30962fecb02a94036649339
+
+    34884-0001-Data.tsv                 -       867       200     2013-10-30  1d340bc094ddb5750d489867e8271412
+
+    34884-0001-Data.txt                 1464    867       200     2013-10-30  4bd98216502e8a697c7304590c435806
+
+    34884-0001-Setup.dct                -       -         -       2013-10-30  9dcddfe8073f27288a8b624e8bca585f
+
+    34884-0001-Setup.do                 -       -         -       2013-10-30  0390a60d11112d00907ba561004cd767
+
+    34884-0001-Setup.sas                -       -         -       2013-10-30  a97e5ee869aa851db3009b0a863167c5
+
+    34884-0001-Setup.sps                -       -         -       2013-10-30  56a818e97809eba4a0b917fdfd43062d
+
+    34884-0001-Supplemental_syntax.do   -       -         -       2013-10-30  a6edaa2796882895176155c1a108ccc6
+
+    34884-0001-Supplemental_syntax.sas  -       -         -       2013-10-30  e845cc90760182ca77b92580a5fb33d6
+

@@ -1,0 +1,51 @@
+File Manifest for ICPSR 36274
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails, 2014. ICPSR36274-v1. Ann Arbor,
+MI: Inter-university Consortium for Political and Social Research
+[distributor], 2015-10-12. http://doi.org/10.3886/ICPSR36274.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36274-descriptioncitation.pdf       -       -         -       2015-10-27  -
+
+    36274-related_literature.txt        -       -         -       daily       -
+
+    36274-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails, 2014
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36274-0001-Codebook.pdf             -       -         -       2015-10-12  97cdca8bbfbddb77081e9d08a3f5fdec
+
+    36274-0001-Data.dta                 -       878       200     2015-10-12  46b341b0f358b4b661c71250928cfb7a
+
+    36274-0001-Data.rda                 -       878       200     2015-10-12  1a005e56f32a4a74e1b2cd8379e67928
+
+    36274-0001-Data.sav                 -       878       200     2015-10-12  c7d7ba759226f18879cecf04153eb038
+
+    36274-0001-Data.stc                 -       878       200     2015-10-12  177074d6b1b3c543303e826e692631ef
+
+    36274-0001-Data.tsv                 -       878       200     2015-10-12  889df4b3624e72a36dacf44c331ed456
+
+    36274-0001-Data.txt                 942     878       200     2015-10-12  514fde3d86010f7202428190b60e1074
+
+    36274-0001-Setup.dct                -       -         -       2015-10-12  7a4fc49cab3910d225810e81850fb73a
+
+    36274-0001-Setup.do                 -       -         -       2015-10-12  a418dc1fe40667a620e6a54eed3f3f6c
+
+    36274-0001-Setup.sas                -       -         -       2015-10-12  81eca3832042d231e2cdc6fc73fee618
+
+    36274-0001-Setup.sps                -       -         -       2015-10-12  b854c87b43c3e4db4d00f1f362086eb5
+
+    36274-0001-Supplemental_syntax.do   -       -         -       2015-10-12  b8ca66354381c736dd7711bb27fe6f3f
+
+    36274-0001-Supplemental_syntax.sas  -       -         -       2015-10-12  05b4e15048eec18b0669ad612d6726a0
+

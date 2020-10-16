@@ -1,0 +1,50 @@
+File Manifest for ICPSR 31261
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails: Jail-Level Data, 2010.
+ICPSR31261-v1. Ann Arbor, MI: Inter-university Consortium for Political and
+Social Research [distributor], 2011-08-02.
+http://doi.org/10.3886/ICPSR31261.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    31261-descriptioncitation.pdf       -       -         -       2014-07-04  -
+
+    31261-related_literature.txt        -       -         -       daily       -
+
+    31261-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails: Jail-Level Data, 2010
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    31261-0001-Codebook.pdf             -       -         -       2011-08-02  85116222d6be36c2b2c4f411f5d94b98
+
+    31261-0001-Data.dta                 -       925       200     2011-08-02  984aeb42f46d5010e8d02142c4484fdc
+
+    31261-0001-Data.sav                 -       925       200     2011-08-02  c511edc88f15b09a0d4ef090aa8a0a6a
+
+    31261-0001-Data.stc                 -       925       200     2011-08-02  e492648154cca7f04513267d2359b4d7
+
+    31261-0001-Data.tsv                 -       925       200     2011-08-02  620838d29e41367217ddc0da3f0dd0b1
+
+    31261-0001-Data.txt                 1150    925       200     2011-08-02  b6d49c9f2c84c04b99283fdc0f508b43
+
+    31261-0001-Setup.dct                -       -         -       2011-08-02  5d9cc35e32923b362991bfad35b066f3
+
+    31261-0001-Setup.do                 -       -         -       2011-08-02  a555094c78bb59886e9e338f93ef4509
+
+    31261-0001-Setup.sas                -       -         -       2011-08-02  646a7c5baa391104aba300e10db16b27
+
+    31261-0001-Setup.sps                -       -         -       2011-08-02  ce42b68f12393cf7ff50e1d33196e26d
+
+    31261-0001-Supplemental_syntax.do   -       -         -       2011-08-02  61436dadebf94f6c569f48da998cac2d
+
+    31261-0001-Supplemental_syntax.sas  -       -         -       2011-08-02  efe7e0f8b4ddcc7ccfcf99ecebd3e1ca
+

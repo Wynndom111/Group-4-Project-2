@@ -1,0 +1,51 @@
+File Manifest for ICPSR 37392
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails, 2018. ICPSR37392-v1. Ann Arbor,
+MI: Inter-university Consortium for Political and Social Research
+[distributor], 2020-04-23. http://doi.org/10.3886/ICPSR37392.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37392-descriptioncitation.pdf       -       -         -       2020-04-23  -
+
+    37392-related_literature.txt        -       -         -       daily       -
+
+    37392-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails, 2018
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37392-0001-Codebook-ICPSR.pdf       -       -         -       2020-04-23  80fb012a23ec1a4042c6400cedd25f43
+
+    37392-0001-Data.dta                 -       841       154     2020-04-23  f711fddf2601c4dc92ab5670edcf6710
+
+    37392-0001-Data.rda                 -       841       154     2020-04-23  53a5be1059b10d65c1fc3fad107072ca
+
+    37392-0001-Data.sav                 -       841       154     2020-04-23  53f6f244fde9bad746a72aa217e41566
+
+    37392-0001-Data.stc                 -       841       154     2020-04-23  cd65241f4c752189b6c6154b6edd560a
+
+    37392-0001-Data.tsv                 -       841       154     2020-04-23  c1889898fb7a20710829f11e67ee05a5
+
+    37392-0001-Data.txt                 789     841       154     2020-04-23  4fa118e4cc95e36ce0aeb38cdddbeb78
+
+    37392-0001-Setup.dct                -       -         -       2020-04-23  f29c328943c7901b0382dd6dc374c9e8
+
+    37392-0001-Setup.do                 -       -         -       2020-04-23  2ade00f8023cc9b54b83fc93f93ca040
+
+    37392-0001-Setup.sas                -       -         -       2020-04-23  2b5d146f3585c73f57170c3de803b1ad
+
+    37392-0001-Setup.sps                -       -         -       2020-04-23  2b7665c0113f5851a16bda8979e29e54
+
+    37392-0001-Supplemental_syntax.do   -       -         -       2020-04-23  4d0f0551600b4358a955fdc2377f0915
+
+    37392-0001-Supplemental_syntax.sas  -       -         -       2020-04-23  93dd9645a5559ea9809be07b7462fedc
+

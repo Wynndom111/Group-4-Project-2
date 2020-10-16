@@ -1,0 +1,45 @@
+File Manifest for ICPSR 28281
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails: Jail-Level Data, 2008.
+ICPSR28281-v1.  [distributor], 2011-05-10.
+http://doi.org/10.3886/ICPSR28281.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    28281-descriptioncitation.pdf       -       -         -       2014-07-04  -
+
+    28281-related_literature.txt        -       -         -       daily       -
+
+    28281-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails: Jail-Level Data, 2008
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    28281-0001-Codebook.pdf             -       -         -       2011-05-10  b5bd3615df9cca943adb18919312d61b
+
+    28281-0001-Data.dta                 -       934       129     2011-05-10  0634df85b83080d34b60d0484d7fa845
+
+    28281-0001-Data.sav                 -       934       129     2011-05-10  8ca8f6afb8631779b67d4362f3e19149
+
+    28281-0001-Data.stc                 -       934       129     2011-05-10  ae95b53cec2863d18b05dd33cccd5f28
+
+    28281-0001-Data.tsv                 -       934       129     2011-05-10  2dba253fbc6c0571e4a98d7584b6a13c
+
+    28281-0001-Data.txt                 848     934       129     2011-05-10  358652325f89efa3961b319e5ff70780
+
+    28281-0001-Setup.dct                -       -         -       2011-05-10  c7927bcbddad67e9b6c80712a48a42d0
+
+    28281-0001-Setup.do                 -       -         -       2011-05-10  77d0c06af2723c44d4e13b5e2a125828
+
+    28281-0001-Setup.sas                -       -         -       2011-05-10  d0f3ebf13bb8e7e05aa36c6622273dcb
+
+    28281-0001-Setup.sps                -       -         -       2011-05-10  937ac55fd0f2a852b884ea34fa774ca5
+

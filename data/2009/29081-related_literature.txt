@@ -1,0 +1,275 @@
+Bibliography
+Annual Survey of Jails: Jail-Level Data, 2009
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 29081. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Bonczar, Thomas P.; Glaze, Lauren P., "Probation and Parole in the
+United States, 2010." Bulletin. NCJ 236019, Washington, DC: United States
+Department of Justice, Bureau of Justice Statistics, Nov 2011.
+Full text: http://bjs.gov/content/pub/ascii/ppus10.txt
+Full text PDF: http://bjs.gov/content/pub/pdf/ppus10.pdf
+Presents statistics about adult offenders under community supervision while
+on probation or parole during 2010. It examines changes in community
+supervision populations during 2010 and prior years. The report documents a
+slowing of growth in these populations over time and declines in recent
+years. The report also provides statistics on the number of offenders
+entering and exiting probation and parole and the turnover of these
+populations. It describes the outcomes of supervision, including the rate
+at which probationers or parolees completed the terms of their supervision
+or were incarcerated for violating the conditions of supervision. Appendix
+tables in the report include detailed information by jurisdiction, such as
+entries and exits by type; sex, race, and Hispanic origin of offenders;
+offense type; supervision status; and Global Positioning System (GPS)
+offender tracking, including sex offenders.
+
+2. Bronson, Jennifer; Stroop, Jessica; Zimmer, Stephanie; Berzofsky,
+Marcus, "Drug Use, Dependence, and Abuse Among State Prisoners and Jail
+Inmates, 2007-2009." Special Report. NCJ 250546, Washington, DC: Bureau of
+Justice Statistics, Jun 2017.
+Abstract: https://www.ncjrs.gov/app/publications/abstract.aspx?id=272712
+Full text: https://www.bjs.gov/content/pub/ascii/dudaspji0709.txt
+Full text PDF: https://www.bjs.gov/content/pub/pdf/dudaspji0709.pdf
+Fifty-eight percent of State prisoners and 63 percent of sentenced jail
+inmates met the criteria for drug dependence or abuse during 2007-09, as
+defined by the Diagnostic and Statistical Manual of Mental Disorders,
+Fourth Edition (DSM-IV). In comparison, approximately 5 percent of the
+total general population age 18 or older met the DSM-IV criteria for drug
+dependence or abuse during this period. Overall, both State inmates (63
+percent) and jail inmates (64 percent) regularly used marijuana/hashish
+more than any other drugs prior to incarceration. This was followed by
+cocaine/crack (24 percent of State inmates and 38 percent of jail inmates).
+Fewer State inmates (42 percent) and Jail inmates (37 percent) reported
+using drugs at the time of their offense. Sixty-nine percent of female
+State inmates and 72 percent of jail inmates met the DSM-IV criteria for
+drug dependence or abuse, compared to 57 percent of males in State prison
+and 62 percent of jail inmates. Drug dependence for State inmates and jail
+inmates is also reported by inmate age and race/ethnicity (Hispanics and
+non-Hispanic White or Black inmates). Twenty-eight percent of State inmates
+and 22 percent of sentenced jail inmates who met the criteria for drug
+dependence or abuse participated in a drug treatment program since
+admission to their current facility. 1 table
+
+3. Carson, E.A.; Cowhig, Mary P., "Mortality in Local Jails, 2000-2016."
+Statistical Tables. NCJ 251921, Washington, DC: Bureau of Justice
+Statistics, Feb 2020.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=6767
+Full text PDF: https://www.bjs.gov/content/pub/pdf/mlj0016st.pdf
+
+4. Glaze, Lauren E., "Correctional Populations in the United States, 2009."
+Bulletin. NCJ 231681, Washington, DC: United States Department of Justice,
+Bureau of Justice Statistics, Dec 2010.
+Full text: http://bjs.ojp.usdoj.gov/content/pub/ascii/cpus09.txt
+Full text PDF: http://bjs.ojp.usdoj.gov/content/pub/pdf/cpus09.pdf
+Presents summary data on the number of adults under some form of
+correctional supervision in the United States at yearend 2009. Correctional
+supervision includes adults supervised in the community on probation or
+parole and those incarcerated in prison or local jails. The report provides
+a comparison between the change in the correctional population observed
+since 2000 and the changes observed during the 1980s and 1990s, which
+illustrates the slowing of growth in the population during each decade. It
+also includes the number of men and women under each correctional status
+and trend analysis of men and women under correctional supervision since
+1990.
+
+5. Glaze, Lauren E.; Bonczar, Thomas P., "Probation and Parole in the
+United States, 2009." Bulletin. NCJ 231674, Washington, DC: United States
+Department of Justice, Bureau of Justice Statistics, Dec 2010.
+Full text: http://bjs.ojp.usdoj.gov/content/pub/ascii/ppus09.txt
+Full text PDF: http://bjs.ojp.usdoj.gov/content/pub/pdf/ppus09.pdf
+Presents the number of adults under community supervision (probation or
+parole) at yearend 2009 and the rate of change in both populations during
+the year. The report examines factors associated with changes in the
+probation and parole populations since 2000 and during the last year.
+Includes a discussion about changes in the probation and parole populations
+in selected states, the number of entries onto and exits from community
+supervision, the rate at which probationers and parolees exit supervision,
+outcomes of supervision, and changes in the type of offenses among both
+populations. Appendix tables provide detailed data by jurisdiction,
+including entries and exits by type, sex, race and Hispanic or Latino
+origin; offense type; supervision status; Global Positioning System (GPS)
+offender tracking (including sex offenders); and other information.
+
+6. Johnson, Calvin; Laisne, Mathilde; Wool, Jon, "Criminal Justice:
+Changing Course on Incarceration." The New Orleans Index at Ten. Data
+Center, Jun 2015.
+Abstract: http://hdl.handle.net/10590/4359
+
+7. Johnson, Calvin; Laisne, Mathilde; Wool, Jon, "Justice in Katrina's
+Wake: Changing Course on Incarceration in New Orleans." Vera Institute of
+Justice, Nov 2015.
+Full text PDF: https://www.prisonpolicy.org/scans/vera/justice-in-katrinas-wake.pdf
+
+8. Kaeble, Danielle; Cowhig, Mary, "Correctional Populations in the United
+States, 2016." NCJ 251211, Washington, DC: Bureau of Justice Statistics,
+Apr 2018.
+Abstract: https://www.bjs.gov/index.cfm?ty=pbdetail&iid=6226
+Full text PDF: https://www.bjs.gov/content/pub/pdf/cpus16.pdf
+
+9. Kandel, William A., "Interior Immigration Enforcement: Criminal Alien
+Programs." Congressional Research Service, Sep 8, 2016.
+Full text PDF: http://trac.syr.edu/immigration/library/P12265.pdf
+
+10. Knapp, Courtney, "Local planning in the age of mass decarceration."
+Journal of Planning Education and Research. in press 2020,. DOI:
+10.1177/0739456X20911704
+Full text PDF: http://trac.syr.edu/immigration/library/P12265.pdf
+
+11. Lambert, Lauren A.; Armstrong, Lori R.; Lobato, Mark N.; Ho, Christine;
+France, Anne M.; Haddad, Maryam B., "Tuberculosis in jails and prisons:
+United States, 2002-2013." American Journal of Public Health. Dec 2016,
+106, (12), 2231 - 2237. DOI: 10.2105/AJPH.2016.30342
+Abstract: https://www.ncbi.nlm.nih.gov/pubmed/27631758
+
+12. Liu, Patrick; Nunn, Ryan; Shambaugh, Jay, "Nine Facts About Monetary
+Sanctions in the Criminal Justice System." Economic Facts. The Hamilton
+Project, Mar 2019.
+Full text: http://www.hamiltonproject.org/papers/nine_facts_about_monetary_sanctions_in_the_criminal_justice_system
+Full text PDF: http://www.hamiltonproject.org/assets/files/BailFacts_20190314.pdf
+
+13. Liu, Patrick; Nunn, Ryan; Shambaugh, Jay, "The Economics of Bail and
+Pretrial Detention." The Hamilton Project. Washington, DC: Brookings, Dec
+2018.
+Full text PDF: http://www.hamiltonproject.org/assets/files/BailFineReform_EA_121818_6PM.pdf
+
+14. Maruschak, Laura M.; Minton, Todd D., "Correctional Populations in the
+United States, 2017-2018." Bulletin. NCJ 252157, Washington, DC: Bureau of
+Justice Statistics, Aug 2020.
+Full text PDF: https://www.bjs.gov/content/pub/pdf/cpus1718.pdf
+
+15. Minton, Todd D., "Jail Inmates at Midyear 2009." Statistical Tables.
+NCJ 230122, Washington, DC: United States Department of Justice, Bureau of
+Justice Statistics, Jun 2010.
+Full text: http://bjs.ojp.usdoj.gov/content/pub/ascii/jim09st.txt
+Full text PDF: http://bjs.ojp.usdoj.gov/content/pub/pdf/jim09st.pdf
+
+16. Minton, Todd D.; Brumbaugh, Susan; Rohloff, Harley, "American Indian
+and Alaska Natives in Local Jails, 1999-2014." Bulletin. NCJ 250652,
+Washington, DC: Bureau of Justice Statistics, Sep 2017.
+Abstract: https://www.ncjrs.gov/app/publications/abstract.aspx?id=272820
+Full text: https://www.bjs.gov/content/pub/ascii/aianlj9914.txt
+Full text PDF: https://www.bjs.gov/content/pub/pdf/aianlj9914.pdf
+The number of AIAN held in local U.S. jails nearly doubled from midyear
+1999 (5,500) to midyear 2014 (10,400). At midyear 2014, 1.4 percent of all
+(744,600) local jail inmates were AIAN, a percentage that was stable from
+2006 and an increase of 0.9 percent in 1999. Males composed approximately
+80 percent of adult AIAN jail inmates in 2011, and females composed 20
+percent of adult AIAN inmates in 2011. This was lower than the percentage
+of male (87 percent) and female (13 percent) inmates for all other races
+and Hispanic origin. The majority of both AIAN inmates (71 percent) and all
+other inmates (72 percent) were 39 years old or younger. A similar
+percentage of AIAN inmates and inmates of all other races and Hispanic
+origin were in jail for violent offenses in 2011. Nearly a quarter (24
+percent) of AIAN jail inmates and 22 percent of all other inmates were held
+for a violent offense. AIAN jail inmates (14 percent) were more than twice
+as likely as all other inmates (6 percent) to be held for a DWI/DUI of
+alcohol or drugs. Although AIAN inmates were more likely than inmates of
+all other races and Hispanic origin to be sentenced for their crimes,
+sentences for AIAN inmates tended to be shorter than those for all other
+inmates. 1 figure
+
+17. Minton, Todd D.; Ginder, Scott; Brumbaugh, Susan M.; Smiley-McDonald,
+Hope; Rohlof, Harley, "Census of Jails: Population Changes, 1999-2013."
+Bulletin. NCJ 248627, Washington, DC: U.S. Department of Justice, Office of
+Justice Programs, Bureau of Justice Statistics, Dec 2015.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=5480&utm_source=juststats-120815&utm_medium=email&utm_content=CJPC9913%20Head&utm_campaign=juststats&ed2f26df2d9c416fbddddd2330a778c6=cbbiganehg-cngonblg
+Full text: http://www.bjs.gov/content/pub/ascii/cjpc9913.txt
+Full text PDF: http://www.bjs.gov/content/pub/pdf/cjpc9913.pdf
+Presents state-level estimates of the number of inmates confined in local
+jails at year end 2013, by sex, race, and Hispanic origin. This report
+provides information on changes in the incarceration rate, average daily
+population, admissions, expected length of stay, rated capacity, percent of
+capacity occupied, and inmate-to-correctional officer ratios. It also
+includes statistics, by jurisdiction size, on the number of inmates
+confined to jail and persons admitted to jail during 2013. It features a
+special section on the 12 facilities that functioned as jails for the
+Federal Bureau of Prisons.
+
+18. Noonan, Margaret; Rohloff, Harley; Ginder, Scott, "Mortality in Local
+Jails and State Prisons, 2000-2013 - Statistical Tables." NCJ 248756,
+Washington, DC: United States Department of Justice, Office of Justice
+Programs, Bureau of Justice Programs, Aug 2015.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=5341&utm_source=juststats-080415&utm_medium=email&utm_content=Mortality%20in%20Local%20Jails%20and%20State%20Prisons%20Button&utm_campaign=juststats
+Full text: http://www.bjs.gov/content/pub/ascii/mljsp0013st.txt
+Full text PDF: http://www.bjs.gov/content/pub/pdf/mljsp0013st.pdf
+Presents national and state-level data on the number of inmate deaths that
+occurred in local jails and state prisons, the distribution of deaths
+across jails, and the aggregate count of deaths in federal prisons. The
+report presents annual counts and 14-year trends between 2000 and 2013 in
+deaths in custody. It provides mortality rates per 100,000 inmates in
+custody in jail or prison; details the causes of death, including deaths
+attributed to homicide, suicide, illness, intoxication, and accidental
+injury; describes decedents' characteristics, including age, sex, race or
+Hispanic origin, legal and hold status, and time served; and specifies the
+state where the deaths occurred. Data are from the Bureau of Justice
+Statistics'  Deaths in Custody Reporting Program, initiated in 2000 under
+the Death in Custody Reporting Act of 2000 (P.L. 106-297).
+
+19. Sawyer, Wendy; Wagner, Peter, "Mass Incarceration: The Whole Pie 2019."
+Mar 19, 2019..
+Full text PDF: https://www.prisonpolicy.org/factsheets/pie2019_allimages.pdf
+
+20. Scott, Jacqueline; Petrossian, Gohar; Mellow, Jeff; Peterson, Bryce,
+"Understanding risky facilities: An analysis of factors associated with
+jail escapes in eight states." Security Journal. Oct 2018, 31, (4), 805 -
+820. DOI: 10.1057/s41284-018-0132-7
+Full text PDF: https://www.prisonpolicy.org/factsheets/pie2019_allimages.pdf
+
+21. Swavola, Elizabeth; Riley, Kristine; Subramanian, Ram, "Overlooked:
+Women and Jails in an Era of Reform." Safety and Justice Challenge. New
+York, NY: Vera Institute of Justice, Aug 2016.
+Full text PDF: https://www.prisonpolicy.org/factsheets/pie2019_allimages.pdf
+
+22. Trotter, April; Noonan, Margaret, "Medical conditions, mental health
+problems, disabilities, and mortality among jail inmates." American Jails.
+May-Jun 2016, 30, (2), 8 - 14.
+Full text PDF: https://www.prisonpolicy.org/factsheets/pie2019_allimages.pdf
+
+23. Zajac, Gary; Kowalski, Lindsay, "An Examination of Pennsylvania Rural
+County Jails." Harrisburg, PA: Center for Rural Pennsylvania, Dec 2012..
+Full text PDF: https://www.prisonpolicy.org/factsheets/pie2019_allimages.pdf
+
+24. Zajac, Gary; Kowalski, Lindsay, "An Examination of Pennsylvania's Rural
+County Prison Systems." Pennsylvania State University, Jan 2012..
+Full text PDF: http://justicecenter.psu.edu/research/documents/JailsFinalReportJusticeCenterversion.pdf
+
+25. Zeng, Zhen, "Jail Inmates in 2016." Bureau of Justice Statistics
+Bulletin. NCJ 251210, Washington, DC: Bureau of Justice Statistics, Feb
+2018.
+Abstract: https://www.ncjrs.gov/app/publications/abstract.aspx?id=273390
+Full text PDF: https://www.bjs.gov/content/pub/pdf/ji16.pdf
+Presents data on inmates confined in local jails between 2000 and 2016,
+including population counts and incarceration rates, inmate demographic
+characteristics and conviction status, average daily population, rated
+capacity of local jails and percent of capacity occupied, and turnover
+rates by jurisdiction size. Findings are based on data from BJS's Annual
+Survey of Jails. Unlike prisons, jails are locally administered
+correctional facilities that typically house inmates with a sentence of 1
+year or less; inmates pending arraignment; and individuals awaiting trial,
+conviction, or sentencing.
+
+26. Zeng, Zhen, "Jail Inmates in 2017." Bulletin. NCJ 251774, Washington,
+DC: Bureau of Justice Statistics, Apr 2019.
+Abstract: https://www.ncjrs.gov/app/publications/abstract.aspx?id=273390
+Full text PDF: https://www.bjs.gov/content/pub/pdf/ji16.pdf
+Presents data on inmates confined in local jails between 2000 and 2016,
+including population counts and incarceration rates, inmate demographic
+characteristics and conviction status, average daily population, rated
+capacity of local jails and percent of capacity occupied, and turnover
+rates by jurisdiction size. Findings are based on data from BJS's Annual
+Survey of Jails. Unlike prisons, jails are locally administered
+correctional facilities that typically house inmates with a sentence of 1
+year or less; inmates pending arraignment; and individuals awaiting trial,
+conviction, or sentencing.
+
+27. Zeng, Zhen, "Jail Inmates in 2018." Bulletin. NCJ 253044, Washington,
+DC: Bureau of Justice Statistics, Mar 2020.
+Abstract: https://www.bjs.gov/index.cfm?ty=pbdetail&iid=6826
+Full text PDF: https://www.bjs.gov/content/pub/pdf/ji18.pdf

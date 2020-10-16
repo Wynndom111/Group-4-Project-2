@@ -1,0 +1,51 @@
+File Manifest for ICPSR 37135
+
+United States Department of Justice. Office of Justice Programs. Bureau of
+Justice Statistics. Annual Survey of Jails, 2016. ICPSR37135-v1. Ann Arbor,
+MI: Inter-university Consortium for Political and Social Research
+[distributor], 2018-12-13. http://doi.org/10.3886/ICPSR37135.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37135-descriptioncitation.pdf       -       -         -       2018-12-13  -
+
+    37135-related_literature.txt        -       -         -       daily       -
+
+    37135-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Annual Survey of Jails, 2016
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37135-0001-Codebook.pdf             -       -         -       2018-12-13  0a989c18c576eabbeb893e06c00557b5
+
+    37135-0001-Data.dta                 -       902       157     2018-12-13  6c2aae019686fac113888454053e26ff
+
+    37135-0001-Data.rda                 -       902       157     2018-12-13  60e88aa883f23172d417cc5957730d50
+
+    37135-0001-Data.sav                 -       902       157     2018-12-13  9894c9c097626e0e0add84636f0a750d
+
+    37135-0001-Data.stc                 -       902       157     2018-12-13  daa98d2f769d9ccb7e246f66fac972d0
+
+    37135-0001-Data.tsv                 -       902       157     2018-12-13  0cd1feaabba9f0fe03b2927cf2125651
+
+    37135-0001-Data.txt                 858     902       157     2018-12-13  284caadcd0942a6a653713dd5002fdd5
+
+    37135-0001-Setup.dct                -       -         -       2018-12-13  0e4386e443a7e4745e3e45524bae268b
+
+    37135-0001-Setup.do                 -       -         -       2018-12-13  70035e980d08745aaa12622c66ab7bb3
+
+    37135-0001-Setup.sas                -       -         -       2018-12-13  8cd9baedf945635a65f8157e78333030
+
+    37135-0001-Setup.sps                -       -         -       2018-12-13  61d9dd19c688c3847343bfbe1059456d
+
+    37135-0001-Supplemental_syntax.do   -       -         -       2018-12-13  70a75b0e2b86d0b7dfbc101c24fdc746
+
+    37135-0001-Supplemental_syntax.sas  -       -         -       2018-12-13  648d1c298532b9f207fb5f48615276da
+
