@@ -1,9 +1,7 @@
-CREATE TABLE incarceration_data (
+CREATE TABLE state_data (
 	key VARCHAR(255) PRIMARY KEY,
-	year DATE,
 	state VARCHAR(255),
-	county VARCHAR(255),
-	facility_name VARCHAR(255),
+	year DATE,
 	confined_population INT,
 	adult_male INT,
 	pct_adult_male DECIMAL(4,4),
