@@ -23,7 +23,7 @@ base = automap_base()
 base.prepare(engine, reflect=True)
 
 # Choose the table we wish to use
-table = base.classes.state_data
+state_data = base.classes.state_data
 
 # Instantiate the Flask application. (Chocolate cake recipe.)
 # This statement is required for Flask to do its job. 
@@ -36,7 +36,7 @@ def IndexRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
 
-    webpage = render_template("..templates/index.html")
+    webpage = render_template("index.html")
     return webpage
 
 @app.route("/other")
@@ -57,12 +57,12 @@ def QueryLine():
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(table.country, table.iso3, table.fighteraircraft).all()
+    results = session.query(state_data.state, state_data.year, state_data.confined_population).all()
     session.close()
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     confined_per_year = []
-    for country, iso3, fighteraircraft in results:
+    for state, year, confined_population in results:
         dict = {}
         dict["state"] = state
         dict["year"] = year
@@ -78,12 +78,12 @@ def QueryMap():
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(table.country, table.iso3, table.totalpopulation).all()
+    results = session.query(state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
     session.close 
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     map_demographics = []
-    for country, iso3, totalpopulation in results:
+    for state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
         dict["state"] = state
         dict["year"] = year
@@ -93,7 +93,7 @@ def QueryMap():
         dict["hispanic_population"] = hispanic_population
         dict["native_american_population"] = native_american_population
         dict["asian_population"] = asian_population
-        dict["native_hawaiian_pacific_islander_population"] = native_american_population
+        dict["native_hawaiian_pacific_islander_population"] = native_hawaiian_pacific_islander_population
         dict["two_or_more_race_population"] = two_or_more_race_population
         dict["other_population"] = other_population
         map_demographics.append(dict)
@@ -108,12 +108,12 @@ def QueryPie():
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(table.country, table.iso3, table.totalpopulation).all()
+    results = session.query(state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
     session.close 
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     pie_demographics = []
-    for country, iso3, totalpopulation in results:
+    for state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
         dict["state"] = state
         dict["year"] = year
@@ -123,7 +123,7 @@ def QueryPie():
         dict["hispanic_population"] = hispanic_population
         dict["native_american_population"] = native_american_population
         dict["asian_population"] = asian_population
-        dict["native_hawaiian_pacific_islander_population"] = native_american_population
+        dict["native_hawaiian_pacific_islander_population"] = native_hawaiian_pacific_islander_population
         dict["two_or_more_race_population"] = two_or_more_race_population
         dict["other_population"] = other_population
         pie_demographics.append(dict)
