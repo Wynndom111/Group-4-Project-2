@@ -41,11 +41,11 @@ function getColor(confScale) {
 }
 
 // Use link to get geojson data
-var link = "data/usstates.geojson" 
+var link = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json' 
 
 
 d3.json(link).then(function(data) { 
-
+  console.log(data);
   L.geoJson(data, {
     // Style each feature (in this case a neighborhood)
     style: function(feature) {

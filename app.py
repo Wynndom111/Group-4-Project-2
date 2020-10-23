@@ -10,6 +10,7 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
+from sqlalchemy import func
 
 # Define the database connection parameters
 username = 'postgres'  # Ideally this would come from config.py (or similar)
@@ -24,6 +25,7 @@ base.prepare(engine, reflect=True)
 
 # Choose the table we wish to use
 state_data = base.classes.state_data
+
 
 # Instantiate the Flask application. (Chocolate cake recipe.)
 # This statement is required for Flask to do its job. 
@@ -71,19 +73,39 @@ def DashboardRoute():
     webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
     return webpage
 
+@app.route("/StateData")
+def QueryState():
+    ''' Query the database for fighter aircraft and return the results as a JSON. '''
+
+    # Open a session, run the query, and then close the session again
+    session = Session(engine)
+    results = session.query(grouped_data.state).all()
+    session.close()
+
+    # Create a list of dictionaries, with each dictionary containing one row from the query. 
+    state = []
+    for state in results:
+        dict = {}
+        dict["state"] = state
+        state.append(dict)
+
+    # Return the jsonified result. 
+    return jsonify(state)
+
 @app.route("/LineData")
 def QueryLine():
     ''' Query the database for fighter aircraft and return the results as a JSON. '''
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(state_data.state, state_data.year, state_data.confined_population).all()
+    results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population).all()
     session.close()
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     confined_per_year = []
-    for state, year, confined_population in results:
+    for key, state, year, confined_population in results:
         dict = {}
+        dict["key"] = key
         dict["state"] = state
         dict["year"] = year
         dict["confined_population"] = confined_population
@@ -98,13 +120,14 @@ def QueryMap():
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
+    results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
     session.close 
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     map_demographics = []
-    for state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
+    for key, state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
+        dict["key"] = key
         dict["state"] = state
         dict["year"] = year
         dict["confined_population"] = confined_population
@@ -128,13 +151,14 @@ def QueryPie():
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
+    results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
     session.close 
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     pie_demographics = []
-    for state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
+    for key, state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
+        dict["key"] = key
         dict["state"] = state
         dict["year"] = year
         dict["confined_population"] = confined_population
