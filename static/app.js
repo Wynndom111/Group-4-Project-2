@@ -41,7 +41,7 @@ function getColor(confScale) {
 }
 
 // Use link to get geojson data
-var link = "../../data/usstates.geojson" 
+var link = "data/usstates.geojson" 
 
 
 d3.json(link).then(function(data) { 

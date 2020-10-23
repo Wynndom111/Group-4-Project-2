@@ -39,19 +39,39 @@ def IndexRoute():
     webpage = render_template("index.html")
     return webpage
 
-@app.route("/other")
-def OtherRoute():
-    ''' This function runs when the user clicks the link for the other page.
+@app.route("/Line.html")
+def LineRoute():
+    ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
 
-    # Note that this call to render template passes in the title parameter. 
-    # That title parameter is a 'Shirley' variable that could be called anything 
-    # we want. But, since we're using it to specify the page title, we call it 
-    # what we do. The name has to match the parameter used in other.html. 
-    webpage = render_template("other.html", title_we_want="Shirley")
+    webpage = render_template("Line.html", title = "Incarceration by State 2008 - 2018: Trend Line")
     return webpage
 
-@app.route("/Line")
+@app.route("/Map.html")
+def MapRoute():
+    ''' This function runs when the browser loads the index route. 
+        Note that the html file must be located in a folder called templates. '''
+
+    webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics")
+    return webpage
+
+@app.route("/Pie.html")
+def PieRoute():
+    ''' This function runs when the browser loads the index route. 
+        Note that the html file must be located in a folder called templates. '''
+
+    webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
+    return webpage
+
+@app.route("/Dashboard.html")
+def DashboardRoute():
+    ''' This function runs when the browser loads the index route. 
+        Note that the html file must be located in a folder called templates. '''
+
+    webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
+    return webpage
+
+@app.route("/LineData")
 def QueryLine():
     ''' Query the database for fighter aircraft and return the results as a JSON. '''
 
@@ -72,7 +92,7 @@ def QueryLine():
     # Return the jsonified result. 
     return jsonify(confined_per_year)
 
-@app.route("/Map")
+@app.route("/MapData")
 def QueryMap():
     ''' Query the database for population numbers and return the results as a JSON. '''
 
@@ -102,7 +122,7 @@ def QueryMap():
     return jsonify(map_demographics)
 
 
-@app.route("/Pie")
+@app.route("/PieData")
 def QueryPie():
     ''' Query the database for state prison and return the results as a JSON. '''
 
