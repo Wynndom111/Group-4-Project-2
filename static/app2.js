@@ -10,7 +10,7 @@ function BarChart(stateKey) {
         var white_population = data.map(data => data.white_population)
         var black_population = data.map(data => data.black_population)
         var hispanic_population = data.map(data => data.hispanic_population)
-        var native_american_population = data.map(data => data.hispanic_population)
+        var native_american_population = data.map(data => data.native_american_population)
         var asian_population = data.map(data =>data.asian_population)
         var native_hawaiian_Pacific_islander_population = data.map(data => data.native_hawaiian_Pacific_islander_population)
         var two_or_more_race_population = data.map(data => data.two_or_more_race_population)
