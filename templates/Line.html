@@ -11,19 +11,20 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- Import the Plotly library-->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
   <!-- Import the D3 library-->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   
   <!-- CSS Style Sheet-->   
-  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
  
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="#">Group 4 - Project 2</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,21 +36,17 @@
                 Visualizations
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Index.html">Home</a> 
                 <a class="dropdown-item" href="Map.html">US Map</a>
-                <a class="dropdown-item" href="Line.html">Line Graph</a>            
+                <a class="dropdown-item" href="Line.html">Bar Chart</a>     
                 <a class="dropdown-item" href="Pie.html">Pie Chart</a>
-                <a class="dropdown-item" href="Dashboard.html">Dashboard</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Dashboard.html">Dashboard</a>
-            </li>
             </ul>
         </div>
     </nav>
     <div class="row content">
         <div class="col-sm-12 col-md-8 col-lg-8">
-            <h2 class="text-left">Line</h2>
+            <h2 class="text-left">Bar Chart</h2>
             <hr class="my-4">
             <!-- Line Goes here-->
             <div id="bar"></div>
@@ -58,26 +55,10 @@
             <div>
             <p>Smart words about data go here.</p>
         </div>
-         <div class="col-sm-12 col-md-4 col-lg-4" >
-            <h2 class="text-left">Extras</h2>
-            <hr class="my-4">
-            <a href="Map.html">
-                <img src="../Visualizations/map.png" class="rounded float-left thumbnail" alt="">
-            </a>
-            <a href="Line.html">
-                <img src="../Visualizations/chart.png" class="rounded float right thumbnail" alt="">
-            </a>
-            <a href="Pie.html">
-                <img src="../Visualizations/pie.png" class="rounded float-left  thumbnail" alt="">
-            </a>
-            <a href="Dashboard.html">
-                <img src="../Visualizations/dash.png" class="rounded float right  thumbnail" alt="">
-            </a>
-        </div>
     </div>
     <!-- Plotly  -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- JS  -->
-    <script type="text/javascript" src="static/app2.js"></script>
+    <script type="text/javascript" src="../static/app2.js"></script>
 
 </body>

@@ -43,7 +43,7 @@ function BarChart(stateKey) {
             }
         }
         // Plot Bar Chart
-        Plotly.newPLot("bar", [barData], barLayout);
+        Plotly.newPlot("bar", [barData], barLayout);
 
         });
     };
