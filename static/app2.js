@@ -70,7 +70,7 @@ function initialChart(){
         var state = stateKey[0];
 
 
-       BarChart(stateKey);
+       BarChart(state);
     
     });
     

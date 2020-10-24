@@ -1,3 +1,5 @@
+console.log("loaded app3");
+
 function PieChart(stateKey)
 {
     d3.json("/PieData").then((data) => {
@@ -47,7 +49,7 @@ function initialChart(){
         var state = stateKey[0];
 
 
-       BarChart(stateKey);
+       PieChart(state);
     
     });
     
