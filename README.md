@@ -12,4 +12,16 @@ list columns
 
 Load data into database
 
+# How to create PostgresSQL database
+
+create database named 'incarceration_db' & open a query tool 
+
+Located in 'sql' folder in Group-4-Project-2 repo, run all schema files to create tables in sql
+
+*NOTE when importing csv's in sql, make sure the 'header' tab is clicked and the delimiter is set to ','
+
+In the 'data' folder in repo, import 'prison_data_df.csv' into 'incarceration_data' table in sql
+In the 'data' folder in repo, import 'state_data_df.csv' into 'state_data' table in sql
+In the 'data' folder in repo, import 'state_grouped' into 'grouped_data' table in sql
+
 
