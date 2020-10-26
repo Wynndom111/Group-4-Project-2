@@ -43,10 +43,11 @@ function BarChart(stateKey) {
             }
         }
         // Plot Bar Chart
-        Plotly.newPLot("bar", [barData], barLayout);
+        Plotly.newPlot("bar", [barData], barLayout);
 
         });
     };
+
 
 
 function initialChart(){
@@ -70,8 +71,9 @@ function initialChart(){
         var state = stateKey[0];
 
 
-       BarChart(stateKey);
-    
+       BarChart(state);
+       PieChart(state)
+
     });
     
 };
