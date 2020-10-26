@@ -16,6 +16,59 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
 
 
 
+async function init()
+{
+  var jsonRequest = d3.json(link);
+  var csvRequest = d3.csv("/static/????");
+  var [data, csv] = await Promise.all(jsonRequest, csvRequest);
+  
+  //Expects full name of state and year is optional
+  //if year is omited then returns average
+  function getConfPop (state,year) {
+
+    if (year === undefined) {
+      //get the average for state
+      let totalConfiedPop = 0;
+      let count = 0;
+      for (var i = 0; i < csv.length; i++) {
+        if(abrToFullName[csv[i].state] === state) {
+          totalConfiedPop += csv[i].confined_population;
+          count++;
+        }
+      }
+      return totalConfiedPop / count;
+    }
+    else {
+      for(var i = 0;i < csv.length; i++){
+        if(abrToFullName[csv[i].state] === state && +csv[i].year == year){
+          return csv[i].confined_population;
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Our style object
 var mapStyle = {
   color: "white",
