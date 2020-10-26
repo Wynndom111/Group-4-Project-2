@@ -14,9 +14,9 @@ from sqlalchemy import func
 
 # Define the database connection parameters
 username = 'postgres'  # Ideally this would come from config.py (or similar)
-password = 'Pa55word' # Ideally this would come from config.py (or similar)
+password = pw # Ideally this would come from config.py (or similar)
 database_name = 'incarceration_db' # Created in Week 9, Night 1, Exercise 08-Stu_CRUD 
-connection_string = f'postgresql://postgres:Pa55word@localhost:5432/incarceration_db'
+connection_string = f'postgresql://postgres:{password}@localhost:5432/incarceration_db'
 
 # Connect to the database
 engine = create_engine(connection_string)
@@ -41,13 +41,14 @@ def IndexRoute():
     webpage = render_template("index.html")
     return webpage
 
-@app.route("/Line.html")
+@app.route("/Bar.html")
 def LineRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
 
-    webpage = render_template("Line.html", title = "Incarceration by State 2008 - 2018: Trend Line")
+    webpage = render_template("Bar.html", title = "Incarceration by State 2008 - 2018: Trend Line")
     return webpage
+
 
 @app.route("/Map.html")
 def MapRoute():
@@ -92,27 +93,35 @@ def QueryState():
     # Return the jsonified result. 
     return jsonify(state)
 
-@app.route("/LineData")
+@app.route("/BarData")
 def QueryLine():
     ''' Query the database for fighter aircraft and return the results as a JSON. '''
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
-    results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population).all()
+    results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
     session.close()
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
-    confined_per_year = []
-    for key, state, year, confined_population in results:
+    bar_demographics = []
+    for key, state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
         dict["key"] = key
         dict["state"] = state
         dict["year"] = year
         dict["confined_population"] = confined_population
-        confined_per_year.append(dict)
+        dict["white_population"] = white_population
+        dict["black_population"] = black_population
+        dict["hispanic_population"] = hispanic_population
+        dict["native_american_population"] = native_american_population
+        dict["asian_population"] = asian_population
+        dict["native_hawaiian_pacific_islander_population"] = native_hawaiian_pacific_islander_population
+        dict["two_or_more_race_population"] = two_or_more_race_population
+        dict["other_population"] = other_population
+        bar_demographics.append(dict)
 
     # Return the jsonified result. 
-    return jsonify(confined_per_year)
+    return jsonify(bar_demographics)
 
 @app.route("/MapData")
 def QueryMap():

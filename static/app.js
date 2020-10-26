@@ -53,7 +53,7 @@ d3.json(link).then(function(data) {
         color: "white",
         // Call the chooseColor function to decide which color to color our neighborhood (color based on borough)
         fillColor: "black",
-        fillOpacity: 0.2,
+        fillOpacity: 0.5,
         weight: 1.5
       };
     },
@@ -65,7 +65,7 @@ d3.json(link).then(function(data) {
         mouseover: function(event) {
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.5
+            fillOpacity: 0.8
           });
         },
         // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%

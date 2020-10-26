@@ -12,13 +12,16 @@
 
   <!-- Import the Plotly library-->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
+  
+  <!-- Import the Chartist library-->   
+  <link rel="stylesheet"
+  href="/static/bower_components/chartist/dist/chartist.min.css">
 
   <!-- Import the D3 library-->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   
   <!-- CSS Style Sheet-->   
-  <link rel="stylesheet" type="text/css" href="../static/style.css">
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
  
 
 </head>
@@ -38,7 +41,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="Index.html">Home</a> 
                 <a class="dropdown-item" href="Map.html">US Map</a>
-                <a class="dropdown-item" href="Line.html">Bar Chart</a>     
+                <a class="dropdown-item" href="Bar.html">Bar Chart</a>     
                 <a class="dropdown-item" href="Pie.html">Pie Chart</a>
                 </div>
             </ul>
@@ -49,7 +52,7 @@
             <h2 class="text-left">Bar Chart</h2>
             <hr class="my-4">
             <!-- Bar Goes here-->
-            <div id="bar"></div>
+            <div class="ct-chart ct-perfect-fourth"></div>
             <div class = "well"></div>
             <select id="stateSelect"></select>
             <div>
@@ -58,6 +61,10 @@
     </div>
     <!-- Plotly  -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Chartist  -->
+    <script src="/static/bower_components/chartist/dist/chartist.min.js"></script>
+
     <!-- JS  -->
     <script type="text/javascript" src="/static/app2.js"></script>
 
