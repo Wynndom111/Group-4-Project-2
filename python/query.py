@@ -10,7 +10,7 @@ url = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geo
 geo_data = requests.get(url).json()
 
 # dump geojson data into file in the 
-with open('../data/usstates.geojson', 'w') as f:
+with open('../static/usstates.geojson', 'w') as f:
     dump(geo_data, f)
 
 print(geo_data)
