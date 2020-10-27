@@ -14,60 +14,8 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
   accessToken: API_KEY
 }).addTo(myMap);
 
-
-
-async function init()
-{
-  var jsonRequest = d3.json(link);
-  var csvRequest = d3.csv("/static/????");
-  var [data, csv] = await Promise.all(jsonRequest, csvRequest);
-  
-  //Expects full name of state and year is optional
-  //if year is omited then returns average
-  function getConfPop (state,year) {
-
-    if (year === undefined) {
-      //get the average for state
-      let totalConfiedPop = 0;
-      let count = 0;
-      for (var i = 0; i < csv.length; i++) {
-        if(abrToFullName[csv[i].state] === state) {
-          totalConfiedPop += csv[i].confined_population;
-          count++;
-        }
-      }
-      return totalConfiedPop / count;
-    }
-    else {
-      for(var i = 0;i < csv.length; i++){
-        if(abrToFullName[csv[i].state] === state && +csv[i].year == year){
-          return csv[i].confined_population;
-        }
-      }
-    }
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Use link to get geojson data
+var link = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json' 
 
 // Our style object
 var mapStyle = {
@@ -93,11 +41,15 @@ function getColor(confScale) {
                     '#FFEDA0';
 }
 
-// Use link to get geojson data
-var link = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json' 
 
+async function init()
+{
+  var jsonRequest = d3.json(link);
+  var csv = await d3.csv("/static/state_data_df.csv");
+  var data = await jsonRequest;
 
-d3.json(link).then(function(data) { 
+  function getStateData(state) { return csv.filter(x => x.state === state); }
+
   console.log(data);
   L.geoJson(data, {
     // Style each feature (in this case a neighborhood)
@@ -129,14 +81,45 @@ d3.json(link).then(function(data) {
           });
         },
         // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
-        click: function(event) {
-          myMap.fitBounds(event.target.getBounds());
-        }
+        // click: function(event) {
+        //   myMap.fitBounds(event.target.getBounds());
+        // }
       });
       // Giving each feature a pop-up with information pertinent to it
-      layer.bindPopup("<h1>" + feature.properties.name);  
+      let popupHtml = `<h1> ${feature.properties.name} </h1>`;
+      popupHtml += `<ul class="list-group">`
+      getStateData(feature.properties.name).forEach(e => {
+        popupHtml += `<li class="list-group-item"> ${e.year}\n Population: ${e.confined_population}</li>`
+      });
+      popupHtml += `</ul>`
+      layer.bindPopup(popupHtml, {width: "50px"});  
     }
   }).addTo(myMap);
-});
-    
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+init();
