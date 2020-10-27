@@ -1,5 +1,6 @@
 from pw import pw
-
+import csv
+import io
 # Import the functions we need from flask
 from flask import Flask
 from flask import render_template 
@@ -11,6 +12,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 from sqlalchemy import func
+
 
 # Define the database connection parameters
 username = 'postgres'  # Ideally this would come from config.py (or similar)
@@ -130,9 +132,11 @@ def QueryMap():
     # Open a session, run the query, and then close the session again
     session = Session(engine)
     results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
-    session.close 
+    session.close()
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
+
+   
     map_demographics = []
     for key, state, year, confined_population, white_population, black_population, hispanic_population, native_american_population, asian_population, native_hawaiian_pacific_islander_population, two_or_more_race_population, other_population in results:
         dict = {}
@@ -150,8 +154,13 @@ def QueryMap():
         dict["other_population"] = other_population
         map_demographics.append(dict)
 
-    # Return the jsonified result. 
-    return jsonify(map_demographics)
+    with io.StringIO() as stream:
+        csvWriter = csv.DictWriter(stream, fieldnames = map_demographics[0].keys())
+        csvWriter.writeheader()
+        for rowdict in map_demographics:
+            csvWriter.writerow(rowdict)
+        
+        return stream.getvalue()
 
 
 @app.route("/PieData")
@@ -161,7 +170,7 @@ def QueryPie():
     # Open a session, run the query, and then close the session again
     session = Session(engine)
     results = session.query(state_data.key, state_data.state, state_data.year, state_data.confined_population, state_data.white_population, state_data.black_population, state_data.hispanic_population, state_data.native_american_population, state_data.asian_population, state_data.native_hawaiian_pacific_islander_population, state_data.two_or_more_race_population, state_data.other_population).all()
-    session.close 
+    session.close()
 
     # Create a list of dictionaries, with each dictionary containing one row from the query. 
     pie_demographics = []
