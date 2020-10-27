@@ -18,11 +18,19 @@ d3.json("/PieData").then((data) => {
         if(currentData) {
             let values = labels.map(label => currentData[label]);      
             var pieLayout = {
-                title: "Demographics of Prison Population by State & Year",
-                width:500,
-                height:500
+                title: {
+                    text:"Demographics of Prison Population by State & Year",
+                    xanchor:'center',
+                    yanchor:'top'},
+                autosize:true,
+                // width:700,
+                // height:700,
+                showlegend:true,
+                // legend:{x:1, y:1}
             }
-            Plotly.newPlot('pie', [{values: values, labels: labels, type: 'pie'}], pieLayout)
+            var config = {responsive: true}
+
+            Plotly.newPlot('pie', [{values: values, labels: labels, type: 'pie'}], pieLayout, config)
         } else {
             console.log("stateKey does not exist: " + stateKey);
         }
