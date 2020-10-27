@@ -16,9 +16,9 @@ from sqlalchemy import func
 
 # Define the database connection parameters
 username = 'postgres'  # Ideally this would come from config.py (or similar)
-password = 'Pa55word' # Ideally this would come from config.py (or similar)
+password = pw # Ideally this would come from config.py (or similar)
 database_name = 'incarceration_db' # Created in Week 9, Night 1, Exercise 08-Stu_CRUD 
-connection_string = f'postgresql://postgres:Pa55word@localhost:5432/incarceration_db'
+connection_string = f'postgresql://postgres:{password}@localhost:5432/incarceration_db'
 
 # Connect to the database
 engine = create_engine(connection_string)
@@ -43,7 +43,7 @@ def IndexRoute():
     webpage = render_template("index.html")
     return webpage
 
-@app.route("/Bar.html")
+@app.route("/Bar")
 def LineRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
@@ -52,7 +52,7 @@ def LineRoute():
     return webpage
 
 
-@app.route("/Map.html")
+@app.route("/Map")
 def MapRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
@@ -60,7 +60,7 @@ def MapRoute():
     webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics")
     return webpage
 
-@app.route("/Pie.html")
+@app.route("/Pie")
 def PieRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
@@ -68,7 +68,7 @@ def PieRoute():
     webpage = render_template("Pie.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
     return webpage
 
-@app.route("/Dashboard.html")
+@app.route("/Dashboard")
 def DashboardRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
@@ -96,7 +96,7 @@ def QueryState():
     return jsonify(state)
 
 @app.route("/BarData")
-def QueryLine():
+def QueryBar():
     ''' Query the database for fighter aircraft and return the results as a JSON. '''
 
     # Open a session, run the query, and then close the session again
