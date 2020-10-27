@@ -14,9 +14,9 @@ from sqlalchemy import func
 
 # Define the database connection parameters
 username = 'postgres'  # Ideally this would come from config.py (or similar)
-password = pw # Ideally this would come from config.py (or similar)
+password = 'Pa55word' # Ideally this would come from config.py (or similar)
 database_name = 'incarceration_db' # Created in Week 9, Night 1, Exercise 08-Stu_CRUD 
-connection_string = f'postgresql://postgres:{password}@localhost:5432/incarceration_db'
+connection_string = f'postgresql://postgres:Pa55word@localhost:5432/incarceration_db'
 
 # Connect to the database
 engine = create_engine(connection_string)

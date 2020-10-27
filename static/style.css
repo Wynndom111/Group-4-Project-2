@@ -26,7 +26,7 @@
 body {
   font-family: sans-serif;
   font-size: 1.1em;
-  background-color: rgb(155, 155, 155);
+  background-color: rgb(119, 15, 15);
 }
 
 .navbar-light .navbar-brand {
@@ -35,7 +35,7 @@ body {
 
 .navbar {
   background-color: rgb(255, 255, 255);
-  width: 100%;
+  width: auto;
   padding: 0;
 }
 
@@ -107,14 +107,14 @@ p:not(.intro) {
 }
 
 div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
-  width: 100%;
+  width: auto;
 }
 
 .imagetiles {
   background-color: white;
 }
 div.imagetiles div.col-lg-6.col-sm-12 img {
-  width: 100%;
+  width: auto;
 }
 
 div.col-sm-12.col-md-12 p {
@@ -124,18 +124,27 @@ div.col-sm-12.col-md-12 p {
 
 .panel-body:hover {
   border-color: blueviolet;
-  border size: 50px;
+  border-width: medium;
 }
 
 
 #map-id {
   height: 850px;
-  padding: 0;
+  width: 100%;
+  padding: 10;
   margin: 0;
+
 
 
 @include media-breakpoint-down(md) {
   .col-md-8 {
     display: block;
   }
+}
+
+#pie {
+  height: 100%;
+  width: 100%;
+  /* padding: 10; */
+  margin: 0;
 }
