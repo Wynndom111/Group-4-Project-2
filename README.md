@@ -19,7 +19,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 1. Once you've hit load file, navigate to our "Group-4-Project-2 folder" and double-click. 
 1. You will find a folder named "sql", double-click that folder. This will lead you to our schemas, click to select the top schema called "grouped_data_schema.sql" and hit the 'Select' button.
 1. Once the selected schema is opened in query tool, hit the "play button" located in the top left of the ribbon. This action will transform the schema into a table.
-1. Repeat Step 5 for "incarceration_data_schema.sql" & "state_data_schema.sql" to create the remaining schemas and hit "play button" to create remaining tables.
+1. Repeat Step 5 for "incarceration_data_schema.sql" & "state_data_schema.sql" to create the remaining schemas and hit the "play button" to create remaining tables.
 
 
 ### Now that the tables have been created, it's time to load our CSVs into the database
