@@ -47,7 +47,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 1. Navigate to "pw.py".
 1. On line 1 you will see 'pw = '. This is where your password for PostgresSQL will be entered.
 1. Enter your password for PostgresSQL, example: 'pw = nineinchnails'
-1. Hit COMMAND 'S' or CONTROL 'S' to save your password.
+1. Hit COMMAND 'S' (mac) or CONTROL 'S' (windows) to save your password.
 
 
 # Step 5: Run Flask Server
