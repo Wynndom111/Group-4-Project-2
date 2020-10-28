@@ -4,9 +4,9 @@ This project is a comprehensive analysis on the national incarceration data of t
 
 # Step 1: Clean Data
 1. Clone this repository to your local machine.
-1. Once this repo is cloned, open a git bash (windows) or terminal (mac) on the folder titled "Group-4-Project-2"
+1. Once this repo is cloned, open a git bash (windows) or terminal (mac) on the folder titled "Group-4-Project-2".
 1. Once in git bash/terminal, type "source activate NewPythonData" and hit ENTER to start Python. Then type "jupyter notebook" to launch a Jupyter Notebook.
-1. Once the Jupyter Notebook launches, navigate to "Data Cleaning.ipynb"
+1. Once the Jupyter Notebook launches, navigate to "Data Cleaning.ipynb".
 1. Once in "Data Cleaning.ipynb", start running cells starting from the top cell to bottom cell, to run cells hit ENTER & SHIFT simultaniously for each cell.
 1. Once all dataframes have run correctly and have displayed our clean final dataframes, you are ready to create PostgresSQL database and import the dataframes "prison_data_df", "state_data_df" & "grouped_state" as CSVs.
 
@@ -30,7 +30,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 1. In this folder, find the CSV file named "state_grouped_csv", 'select' it, and hit "select".
 1. You now have the "state_grouped_csv" selected, to ensure it is loaded properly, hit the 'header' tab to remove header & select 'Delimiter' to set the delimiter to ','.
 1. Hit "OK" to populate the table.
-1. Repeat steps 1-7 to populate the remaining tables (incarceration_data & state_data)
+1. Repeat steps 1-7 to populate the remaining tables (incarceration_data & state_data).
 
 
 # Step 3: Configuring the Flask file & defining the database parameters
@@ -46,7 +46,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 # Step 4: Configuring password for pw.py
 1. Navigate to "pw.py".
 1. On line 1 you will see 'pw = '. This is where your password for PostgresSQL will be entered.
-1. Enter your password for PostgresSQL, example: 'pw = nineinchnails'
+1. Enter your password for PostgresSQL, example: 'pw = nineinchnails'.
 1. Hit COMMAND 'S' (mac) or CONTROL 'S' (windows) to save your password.
 
 
