@@ -1,5 +1,5 @@
 # Group-4-Project-2
-This project is a comprehensive analysis on the national incarceration data of the United States, our data source is the Annual Survey of Jails Data Series, years 2008-2018. The data sets are hosted at the National Archive of Criminal Justice Data (https://www.icpsr.umich.edu/web/NACJD/series/7/studiesmain). Our main objective of the project was to find the prison population information for each state in the country and compare the demographics for similarities or differences.
+This project is a comprehensive analysis on the national incarceration data of the United States. Our data source is the Annual Survey of Jails Data Series, the years we used in our analysis are 2008-2018. The data sets are hosted at the National Archive of Criminal Justice Data (https://www.icpsr.umich.edu/web/NACJD/series/7/studiesmain). Our main objective of the project was to find the prison population information for each state in the country and compare the demographics for similarities or differences.
 
 
 # Step 1: Clean Data
