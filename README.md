@@ -10,7 +10,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 1. Once in "Data Cleaning.ipynb", start running cells starting from the top cell to bottom cell, to run cells hit ENTER & SHIFT simultaniously for each cell.
 1. Once all dataframes have run correctly and have displayed our clean final dataframes, you are ready to create PostgresSQL database and import the dataframes "prison_data_df", "state_data_df" & "grouped_state" as CSVs.
 
-# Step 2: Load Database
+# Step 2: Create and Load Data into PostgresSQL Database
 
 ### How to create PostgresSQL database
 
@@ -22,7 +22,7 @@ This project is a comprehensive analysis on the national incarceration data of t
 1. Repeat Step 5 for "incarceration_data_schema.sql" & "state_data_schema.sql" to create the remaining schemas and hit "play button" to create remaining tables.
 
 
-### Now that the tables have been create, it's time to load our CSVs into the database
+### Now that the tables have been created, it's time to load our CSVs into the database
 1. Navigate to "schemas" tab in "incarceration_db" and open the "tables" dropdown, you will see our 3 tables.
 1. Double-click the first table, you will have a new pop-up, in this pop-up, select "Import/Export..."
 1. Hit the top tab to "import", then hit the "..." button on "Filename".
