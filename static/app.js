@@ -25,22 +25,6 @@ var mapStyle = {
   weight: 1.5
 };
 
-//demo for choropleth
-// https://leafletjs.com/examples/choropleth/
-
-// https://github.com/HandsOnDataViz/leaflet-map-polygon-hover
-
-function getColor(confScale) {
-  return d > 1000 ? '#800026' :
-    d > 500 ? '#BD0026' :
-      d > 200 ? '#E31A1C' :
-        d > 100 ? '#FC4E2A' :
-          d > 50 ? '#FD8D3C' :
-            d > 20 ? '#FEB24C' :
-              d > 10 ? '#FED976' :
-                '#FFEDA0';
-}
-
 
 async function init() {
   var jsonRequest = d3.json(link);
@@ -51,11 +35,10 @@ async function init() {
 
   console.log(data);
   L.geoJson(data, {
-    // Style each feature (in this case a neighborhood)
+    // Style each feature
     style: function (feature) {
       return {
         color: "white",
-        // Call the chooseColor function to decide which color to color our neighborhood (color based on borough)
         fillColor: "black",
         fillOpacity: 0.5,
         weight: 1.5
@@ -65,24 +48,20 @@ async function init() {
     onEachFeature: function (feature, layer) {
       // Set mouse events to change map styling
       layer.on({
-        // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
+        // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 80% so that it stands out
         mouseover: function (event) {
           layer = event.target;
           layer.setStyle({
             fillOpacity: 0.8
           });
         },
-        // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
+        // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back 
         mouseout: function (event) {
           layer = event.target;
           layer.setStyle({
             fillOpacity: 0.5
           });
         },
-        // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
-        // click: function(event) {
-        //   myMap.fitBounds(event.target.getBounds());
-        // }
       });
       // Giving each feature a pop-up with information pertinent to it
       let popupHtml = `<h1> ${feature.properties.name} </h1>`;
