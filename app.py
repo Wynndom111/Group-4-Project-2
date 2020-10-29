@@ -45,7 +45,7 @@ def IndexRoute():
 
 @app.route("/Bar")
 def LineRoute():
-    ''' This function runs when the browser loads the index route. 
+    ''' This function runs when the browser loads the bar chart route. 
         Note that the html file must be located in a folder called templates. '''
 
     webpage = render_template("Bar.html", title = "Incarceration by State 2008 - 2018: Trend Line")
@@ -54,7 +54,7 @@ def LineRoute():
 
 @app.route("/Map")
 def MapRoute():
-    ''' This function runs when the browser loads the index route. 
+    ''' This function runs when the browser loads the map route. 
         Note that the html file must be located in a folder called templates. '''
 
     webpage = render_template("Map.html", title = "Incarceration by State 2008 - 2018, Demographics")
@@ -62,23 +62,15 @@ def MapRoute():
 
 @app.route("/Pie")
 def PieRoute():
-    ''' This function runs when the browser loads the index route. 
+    ''' This function runs when the browser loads the pie chart route. 
         Note that the html file must be located in a folder called templates. '''
 
     webpage = render_template("Pie.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
     return webpage
 
-@app.route("/Dashboard")
-def DashboardRoute():
-    ''' This function runs when the browser loads the index route. 
-        Note that the html file must be located in a folder called templates. '''
-
-    webpage = render_template("Dashboard.html", title = "Incarceration by State 2008 - 2018, Demographics (Pie Chart)")
-    return webpage
-
 @app.route("/StateData")
 def QueryState():
-    ''' Query the database for fighter aircraft and return the results as a JSON. '''
+    ''' Query the database for state incarceration data and return the results as a JSON. '''
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
@@ -97,7 +89,7 @@ def QueryState():
 
 @app.route("/BarData")
 def QueryBar():
-    ''' Query the database for fighter aircraft and return the results as a JSON. '''
+    ''' Query the database for state incarceration and return the results as a JSON. '''
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
@@ -127,7 +119,7 @@ def QueryBar():
 
 @app.route("/MapData")
 def QueryMap():
-    ''' Query the database for population numbers and return the results as a JSON. '''
+    ''' Query the database for incarceration population data and return the results as a CSV. '''
 
     # Open a session, run the query, and then close the session again
     session = Session(engine)
@@ -192,39 +184,6 @@ def QueryPie():
 
     # Return the jsonified result. 
     return jsonify(pie_demographics)
-
-
-@app.route("/test")
-def TestRoute():
-    ''' This function returns a simple message, just to guarantee that
-        the Flask server is working. '''
-
-    return "This is the test route!"
-
-@app.route("/dictionary")
-def DictionaryRoute():
-    ''' This function returns a jsonified dictionary. Ideally we'd create 
-        that dictionary from a database query. '''
-
-    dict = { "Fine Sipping Tequila": 10,
-             "Beer": 2,
-             "Red Wine": 8,
-             "White Wine": 0.25}
-    
-    return jsonify(dict) # Return the jsonified version of the dictionary
-
-@app.route("/dict")
-def DictRoute():
-    ''' This seems to work in the latest versions of Chrome. But it's WRONG to
-        return a dictionary (or any Python-specific datatype) without jsonifying
-        it first! '''        
-
-    dict = { "one": 1,
-             "two": 2,
-             "three": 3}
-    
-    return dict # WRONG! Don't return a dictionary! Return a JSON instead. 
-
 
 # This statement is required for Flask to do its job. 
 # Think of it as chocolate cake recipe. 
